@@ -69,4 +69,25 @@ document.getElementById("aliasParent").appendChild(tim);
 
 //Final Boss
 /*9. Without modifying the HTML file, create your own profile.*/
-var kengo = document.createElement("div");
+var man = document.getElementsByClassName("block3 col-sm-4");
+var go = document.createElement("P");
+go.innerHTML = "Guy Fawkes" 
+man[2].appendChild(go);
+man[2].childNodes[0].src="https://www.thesun.co.uk/wp-content/uploads/2016/10/nintchdbpict000018002551.jpg?w=600&strip=all";
+
+var own0 = document.getElementsByClassName("block3 col-sm-4");
+var des0 = document.createElement("P");
+des0.innerHTML = "V for Vendetta";
+own0[2].appendChild(des0);
+
+var own1 = document.getElementsByClassName("block3 col-sm-4");
+var des1 = document.createElement("P");
+des1.innerHTML = "Richard Dawkins";
+own1[2].appendChild(des1);
+
+var own2 = document.getElementsByClassName("block3 col-sm-4");
+var des2 = document.createElement("P");
+des2.innerHTML = "&#34; Remember remember the 5th of November &#34; "
+own2[2].appendChild(des2);
+
+
